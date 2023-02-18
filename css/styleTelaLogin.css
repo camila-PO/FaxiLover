@@ -91,13 +91,27 @@ h2 {
     padding: 4% 30% 4% 30%;
 }
 
-.btnEntrar {
-    border: 2px solid black;
-    padding: 10px;
+.botao:hover {
+    background-color: purple;
+    color: white;
+}
+
+.botao  {
+    margin-left:auto;
+    margin-right: auto;
+    padding: 11px 21px;
+    border-color:solid purple;
+    border-radius:6px;
+
+    text-decoration:none;
 }
 
 input[type=radio] {
     display: inline;
     height: 1em;
 
+}
+.btnRadio {
+    border: 2px solid black;
+    padding: 10px;
 }
